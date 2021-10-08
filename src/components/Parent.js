@@ -19,7 +19,7 @@ class Parent extends Component {
     return (
       <>
         <h2 className="text-4xl font-extrabold tracking-tight text-gray-900">
-          Car Dealership Kelompok 3
+          Toko Obat Online Kelompok 3
         </h2>
         <div style={{ display: "flex" }}>
           <div

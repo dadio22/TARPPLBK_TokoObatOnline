@@ -2,6 +2,14 @@ import React from "react";
 import "./Cardealer";
 import mobil2 from "../components/mobil2.jpg";
 import Cardobat from "./Cardobat";
+import obatpusing from "../components/obatpusing.jpg";
+import obatperut from "../components/obatsakitperut.jpg";
+import obatmaag from "../components/obatmaag.jpg";
+import obatbatuk from "../components/obatbatuk.jpg";
+import obatflu from "../components/obatflu.jpg";
+import obatantiseptic from "../components/obatantiseptic.jpg";
+import obatkulit from "../components/obatkulit.jpg";
+import obatpegel from "../components/obatpegel.jpg";
 
 class Cardealer extends React.Component {
   constructor(props) {
@@ -22,14 +30,14 @@ class Cardealer extends React.Component {
   componentDidMount() {
     this.setState({
       mobil: [
-        { name: "Lamborghini Aventador", price: 300000, image: mobil2 },
-        { name: "Lamborghini Aventador", price: 300000, image: mobil2 },
-        { name: "Lamborghini Aventador", price: 300000, image: mobil2 },
-        { name: "Lamborghini Aventador", price: 300000, image: mobil2 },
-        { name: "Lamborghini Aventador", price: 300000, image: mobil2 },
-        { name: "Lamborghini Aventador", price: 300000, image: mobil2 },
-        { name: "Lamborghini Aventador", price: 300000, image: mobil2 },
-        { name: "Lamborghini Aventador", price: 300000, image: mobil2 },
+        { name: "Obat Pusing", price: 20000, image: obatpusing },
+        { name: "Obat Sakit Perut", price: 25000, image: obatperut },
+        { name: "Obat Maag", price: 25000, image: obatmaag },
+        { name: "Obat Batuk", price: 30000, image: obatbatuk },
+        { name: "Obat Flu", price: 50000, image: obatflu },
+        { name: "Obat Antiseptic", price: 30000, image: obatantiseptic },
+        { name: "Obat Kulit", price: 50000, image: obatkulit },
+        { name: "Obat Pegel", price: 35000, image: obatpegel },
       ],
     });
   }
